@@ -1,0 +1,128 @@
+.navbar-search {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: 400px;
+  margin: 0 20px;
+  position: relative;
+}
+
+.navbar-search input {
+  flex: 1;
+  padding: 10px 16px;
+  border: 1px solid var(--border);
+  border-radius: 10px 0 0 10px;
+  border-right: none;
+  outline: none;
+  font-size: 0.95rem;
+  background: var(--surface);
+  color: var(--text-primary);
+}
+
+.navbar-search input:focus {
+  border-color: var(--accent);
+}
+
+.navbar-search button {
+  padding: 10px 16px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: white;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
+
+.navbar-search button:hover {
+  background: var(--accent-hover);
+}
+
+.search-suggestions {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  background: var(--surface);
+  border-radius: 12px;
+  box-shadow: 0 12px 30px var(--shadow);
+  overflow: hidden;
+  z-index: 300;
+}
+
+.search-suggestion-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.search-suggestion-item:hover {
+  background: var(--accent-soft);
+}
+
+.search-suggestion-item img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.search-suggestion-item p {
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+}
+
+.search-suggestion-item span {
+  font-size: 0.85rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.nav-links a.active {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.navbar-icons {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.navbar-icons a.cart-link.active svg {
+  color: var(--accent);
+}
+
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-primary);
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.theme-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .navbar-search {
+    display: none;
+  }
+
+  /* MobileNav (bottom bar) takes over page navigation on small screens;
+     theme toggle + wishlist/cart (.navbar-icons) stay visible up top */
+  .nav-links {
+    display: none;
+  }
+}

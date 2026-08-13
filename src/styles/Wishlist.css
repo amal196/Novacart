@@ -1,0 +1,57 @@
+.wishlist-page .empty-wishlist {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.wishlist-card-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.move-to-cart-btn {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: var(--accent);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: 0.3s;
+}
+
+.move-to-cart-btn:hover {
+  background: var(--accent-hover);
+}
+
+.wishlist-card-buttons .remove-btn {
+  padding: 10px 14px;
+}
+
+.move-all-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin: 40px auto 0;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: var(--accent);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.move-all-btn:hover {
+  background: var(--accent-hover);
+}
