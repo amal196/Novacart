@@ -14,9 +14,9 @@ https://novacart-blond.vercel.app/
 
 ![Homepage](https://github.com/amal196/Novacart/blob/main/assets/Homepage.png?raw=true)
 
-### Product Listing
+### Products
 
-(Add Screenshot)
+![](https://github.com/amal196/Novacart/blob/main/assets/Products.png?raw=true)
 
 ### Product Details
 
