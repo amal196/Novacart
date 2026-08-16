@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { getProducts } from "../services/api";
-import { useInView } from "../hooks/useInView";
+import { useInView } from "../hooks/UseInView";
 
 const CATEGORY_META = [
   { value: "smartphones", label: "Smartphones", icon: "📱" },
