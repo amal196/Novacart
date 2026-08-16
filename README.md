@@ -26,13 +26,13 @@ https://novacart-blond.vercel.app/
 
 ![](https://github.com/amal196/Novacart/blob/main/assets/Shopping%20Cart.png?raw=true)
 
-### Recently Viewed Products
+### Deals
 
-(Add Screenshot)
+![](https://github.com/amal196/Novacart/blob/main/assets/Deals.png?raw=true)
 
 ## 📌 Project Type
 
-React Frontend Portfolio Project
+React Frontend E-Commerce Store Project
 
 ## ✨ Features
 
