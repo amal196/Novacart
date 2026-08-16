@@ -12,7 +12,7 @@ https://novacart-blond.vercel.app/
 
 ### Home Page
 
-(Add Screenshot)
+![Homepage]https://github.com/amal196/Novacart/blob/main/assets/Homepage.png?raw=true
 
 ### Product Listing
 
