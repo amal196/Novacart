@@ -32,7 +32,7 @@ https://novacart-blond.vercel.app/
 
 ## 📌 Project Type
 
-React Frontend E-Commerce Store Project
+React Frontend E-Commerce Web Application
 
 ## ✨ Features
 
