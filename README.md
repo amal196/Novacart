@@ -24,7 +24,7 @@ https://novacart-blond.vercel.app/
 
 ### Shopping Cart
 
-(Add Screenshot)
+![](https://github.com/amal196/Novacart/blob/main/assets/Shopping%20Cart.png?raw=true)
 
 ### Recently Viewed Products
 
