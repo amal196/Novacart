@@ -6,7 +6,7 @@ NovaCart is a modern e-commerce web application built using React and Vite, desi
 
 ## 🚀 Live Demo
 
-🔗 novacart-blond.vercel.app
+novacart-blond.vercel.app
 
 ## 📸 Screenshots
 
