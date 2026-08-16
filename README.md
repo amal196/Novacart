@@ -20,7 +20,7 @@ https://novacart-blond.vercel.app/
 
 ### Wishlist
 
-[](https://github.com/amal196/Novacart/blob/main/assets/Wishlist.png?raw=true)
+![](https://github.com/amal196/Novacart/blob/main/assets/Wishlist.png?raw=true)
 
 ### Shopping Cart
 
